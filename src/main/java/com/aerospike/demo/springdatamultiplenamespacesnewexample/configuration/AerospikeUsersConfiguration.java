@@ -22,7 +22,7 @@ import java.util.Collections;
 @Configuration
 @EnableAerospikeRepositories(basePackageClasses = AerospikeUsersRepository.class,
         includeFilters = @ComponentScan.Filter(UsersRepository.class),
-        keyValueTemplateRef = "aerospikeTemplateUsers")
+        aerospikeTemplateRef = "aerospikeTemplateUsers")
 public class AerospikeUsersConfiguration extends AbstractAerospikeDataConfiguration {
     @Override
     protected Collection<Host> getHosts() {
