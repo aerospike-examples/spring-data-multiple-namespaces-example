@@ -16,7 +16,7 @@ You can see a fully working example in this repository.
 
 ### Version
 
-The Spring Data Aerospike versions that supports multiple namespaces are 3.1.0 and above.
+The Spring Data Aerospike versions that supports multiple namespaces are `3.1.0` and above.
 ```
 <dependency>
     <groupId>com.aerospike</groupId>
