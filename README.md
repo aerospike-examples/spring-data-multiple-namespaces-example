@@ -8,7 +8,7 @@ Configuration comes out-of-the-box, all you need to do is to extend `AbstractAer
 override two methods: `getHosts()` and `nameSpace()`.
 You can see an example of using a single namespace in [Simple Web Application Using Java, Spring Boot, Aerospike and Docker](https://medium.com/aerospike-developer-blog/simple-web-application-using-java-spring-boot-aerospike-database-and-docker-ad13795e0089).
 
-Using multiple namespaces with Spring Data Aerospike version 3.1.0 (or above) requires a bit of additional code, create a configuration class per namespace, in each configuration class: extend `AbstractAerospikeDataConfiguration`,
+Using multiple namespaces with Spring Data Aerospike requires a bit of additional code, create a configuration class per namespace, in each configuration class: extend `AbstractAerospikeDataConfiguration`,
 override both `getHosts()` and `nameSpace()`, create an `AerospikeTemplate` bean (with a unique bean name) and point the `aerospikeTemplateRef` field of the
 `@EnableAerospikeRepositories` annotation to the relevant new created `AerospikeTemplate` bean name.
 
