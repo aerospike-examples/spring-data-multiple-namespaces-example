@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.aerospike.demo</groupId>
-	<artifactId>spring-data-multiple-namespaces-new-example</artifactId>
+	<artifactId>spring-data-multiple-namespaces-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-data-multiple-namespaces-new-example</name>
+	<name>spring-data-multiple-namespaces-example</name>
 	<description>An example of using multiple namespaces with Spring Data Aerospike</description>
 	<properties>
 		<java.version>11</java.version>

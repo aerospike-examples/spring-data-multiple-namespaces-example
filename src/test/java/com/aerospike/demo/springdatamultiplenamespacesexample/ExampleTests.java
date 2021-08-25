@@ -1,9 +1,9 @@
-package com.aerospike.demo.springdatamultiplenamespacesnewexample;
+package com.aerospike.demo.springdatamultiplenamespacesexample;
 
-import com.aerospike.demo.springdatamultiplenamespacesnewexample.objects.Product;
-import com.aerospike.demo.springdatamultiplenamespacesnewexample.objects.User;
-import com.aerospike.demo.springdatamultiplenamespacesnewexample.repositories.AerospikeProductsRepository;
-import com.aerospike.demo.springdatamultiplenamespacesnewexample.repositories.AerospikeUsersRepository;
+import com.aerospike.demo.springdatamultiplenamespacesexample.objects.Product;
+import com.aerospike.demo.springdatamultiplenamespacesexample.objects.User;
+import com.aerospike.demo.springdatamultiplenamespacesexample.repositories.AerospikeProductsRepository;
+import com.aerospike.demo.springdatamultiplenamespacesexample.repositories.AerospikeUsersRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
