@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>com.aerospike</groupId>
 			<artifactId>spring-data-aerospike</artifactId>
-			<version>3.0.97</version>
+			<version>3.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
